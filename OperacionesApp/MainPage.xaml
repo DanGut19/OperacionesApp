@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OperacionesApp.MainPage"
+            xmlns:local="clr-namespace:OperacionesApp.Pages"
+            BarBackgroundColor="#273c75"
+            BarTextColor="Black"
+            BarBackground="White">
+
+    <local:Circulo Title="Circulo" />
+    <local:Cuadrado Title="Cuadrado" />
+    <local:Rectangulo Title="Rectangulo" />
+
+</TabbedPage>
